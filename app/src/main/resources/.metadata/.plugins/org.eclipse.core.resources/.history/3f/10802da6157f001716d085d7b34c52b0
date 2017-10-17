@@ -1,0 +1,50 @@
+package hello;
+import javax.swing.JButton;
+public class mohammed {
+	public mohammed(){
+	}
+	public void asd(Object o) {}
+	public static void main(String[] args) {
+		Outer outerclass = new Outer();
+		Outer.Inner cls = outerclass.new Inner();
+		Outer.Inner2 dfd = new Outer.Inner2();
+
+		cls.methodInner();
+	}
+}
+
+interface FF {
+}
+
+interface asd extends FF {
+}
+
+abstract class B {
+}
+
+abstract class A implements asd {
+}
+
+abstract class C extends B {
+}
+
+class Outer {
+	int age;
+	String name;
+
+	void printer() {
+		System.out.print("hello inner classes");
+	}
+
+	protected class Inner {
+		void methodInner() {
+			System.out.println(age);
+			printer();
+		}
+	}
+
+	static class Inner2 {
+	}
+
+}
+ 

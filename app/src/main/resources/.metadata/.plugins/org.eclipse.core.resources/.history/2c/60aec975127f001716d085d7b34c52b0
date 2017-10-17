@@ -1,0 +1,17 @@
+package hello;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class mohammed {
+	public static void main(String[] args) {
+		IllegalArgumentException ex = new IllegalArgumentException("Wrong Argument");
+				throw ex;
+	}
+}
+
+interface FF {}
+interface asd extends FF{}
+abstract class B{}
+abstract class A implements asd {}
+abstract class C extends B {}

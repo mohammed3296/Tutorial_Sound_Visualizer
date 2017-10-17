@@ -1,0 +1,211 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+F:\Projects-Android\Tutorial Sound Visualizer
+                            -     -          
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* C:\Users\Mohammed Abdullah\eclipse-workspace\ => app\src\main\java\
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.lock => app\src\main\resources\.metadata\.lock
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.log => app\src\main\resources\.metadata\.log
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.mylyn\.taskListIndex\segments_1 => app\src\main\resources\.metadata\.mylyn\.taskListIndex\segments_1
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.mylyn\.taskListIndex\write.lock => app\src\main\resources\.metadata\.mylyn\.taskListIndex\write.lock
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.mylyn\.tasks.xml.zip => app\src\main\resources\.metadata\.mylyn\.tasks.xml.zip
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.mylyn\repositories.xml.zip => app\src\main\resources\.metadata\.mylyn\repositories.xml.zip
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.mylyn\tasks.xml.zip => app\src\main\resources\.metadata\.mylyn\tasks.xml.zip
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\1b\803f9d01c17e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\1b\803f9d01c17e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\24\b0d5bcb2c07e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\24\b0d5bcb2c07e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\2c\60aec975127f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\2c\60aec975127f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\3\e06d1dec127f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\3\e06d1dec127f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\3f\10802da6157f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\3f\10802da6157f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\45\5023c68dc17e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\45\5023c68dc17e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\53\d0b301ff127f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\53\d0b301ff127f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\55\30b15dd7127f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\55\30b15dd7127f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\63\d04e13a0c07e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\63\d04e13a0c07e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\7c\307399a4c07e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\7c\307399a4c07e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\99\00e842dbcd7e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\99\00e842dbcd7e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\99\a0db7121c07e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\99\a0db7121c07e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\a4\40bb07b9127f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\a4\40bb07b9127f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\b4\40580e36157f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\b4\40580e36157f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\b8\502952c1bf7e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\b8\502952c1bf7e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\e4\9030c141c07e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\e4\9030c141c07e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\e6\e09aa001c17e001715478f907f4fb301 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\e6\e09aa001c17e001715478f907f4fb301
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\f1\10f7f329137f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\f1\10f7f329137f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.history\fb\a0dd8f17137f001716d085d7b34c52b0 => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\fb\a0dd8f17137f001716d085d7b34c52b0
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\hello\.indexes\e4\d2\history.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\hello\.indexes\e4\d2\history.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\hello\org.eclipse.jdt.core\state.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\hello\org.eclipse.jdt.core\state.dat
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Hospital-Management-System-Project-Javafx-application--master\.location => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Hospital-Management-System-Project-Javafx-application--master\.location
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Hospital-Management-System-Project-Javafx-application--master\.markers => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Hospital-Management-System-Project-Javafx-application--master\.markers
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Hospital-Management-System-Project-Javafx-application--master\org.eclipse.jdt.core\state.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Hospital-Management-System-Project-Javafx-application--master\org.eclipse.jdt.core\state.dat
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\RationalClass\.indexes\af\history.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\RationalClass\.indexes\af\history.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\RationalClass\.indexes\e4\ea\history.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\RationalClass\.indexes\e4\ea\history.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\RationalClass\.markers => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\RationalClass\.markers
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\RationalClass\org.eclipse.jdt.core\state.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\RationalClass\org.eclipse.jdt.core\state.dat
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\history.version => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\history.version
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.root\7.tree => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.root\7.tree
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.ui.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.egit.core.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.egit.core.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.logging.aeri.ide.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.logging.aeri.ide.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.mpc.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.mpc.ui.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.help.base.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.help.base.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.core.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.core.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.launching.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.launching.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.ui.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.m2e.discovery.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.m2e.discovery.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.context.core.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.context.core.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.java.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.java.ui.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.monitor.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.monitor.ui.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.tasks.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.tasks.ui.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.recommenders.completion.rcp.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.recommenders.completion.rcp.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.ui.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.browser.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.browser.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.debug.core\.launches\MainDemo.launch => app\src\main\resources\.metadata\.plugins\org.eclipse.debug.core\.launches\MainDemo.launch
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.debug.core\.launches\mohammed.launch => app\src\main\resources\.metadata\.plugins\org.eclipse.debug.core\.launches\mohammed.launch
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.debug.core\.launches\Signin.launch => app\src\main\resources\.metadata\.plugins\org.eclipse.debug.core\.launches\Signin.launch
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.debug.core\.launches\TestRationalClass.launch => app\src\main\resources\.metadata\.plugins\org.eclipse.debug.core\.launches\TestRationalClass.launch
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.debug.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.debug.ui\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.debug.ui\launchConfigurationHistory.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.debug.ui\launchConfigurationHistory.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi => app\src\main\resources\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.eclemma.core\.execdata\session5202925366695218828.exec => app\src\main\resources\.metadata\.plugins\org.eclipse.eclemma.core\.execdata\session5202925366695218828.exec
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.egit.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.egit.ui\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\http-cache.lucene60\segments_1 => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\http-cache.lucene60\segments_1
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\http-cache.lucene60\write.lock => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\http-cache.lucene60\write.lock
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\_0.cfe => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\_0.cfe
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\_0.cfs => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\_0.cfs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\_0.si => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\_0.si
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\segments_1 => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\segments_1
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\write.lock => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\local-history.lucene60\write.lock
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\server-config.json => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\server-config.json
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.epp.mpc.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.mpc.ui\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.equinox.p2.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.equinox.p2.ui\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\1295027826.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1295027826.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\1312586118.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1312586118.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\136936140.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\136936140.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\1603604153.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1603604153.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\1721714348.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1721714348.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\1846473096.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1846473096.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\1921432459.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1921432459.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\1929933281.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1929933281.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2033839043.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2033839043.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2349671270.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2349671270.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2451833951.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2451833951.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2546076573.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2546076573.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2552972044.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2552972044.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2609461995.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2609461995.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2672315831.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2672315831.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2825787128.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2825787128.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\2936170451.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2936170451.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\3075621779.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3075621779.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\3188099249.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3188099249.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\3475027623.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3475027623.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\4109077407.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\4109077407.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\4266428024.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\4266428024.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\565899265.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\565899265.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\756006386.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\756006386.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\846648070.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\846648070.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\862652098.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\862652098.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\985413812.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\985413812.index
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\assumedExternalFilesCache => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\assumedExternalFilesCache
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\externalFilesCache => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\externalFilesCache
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\externalLibsTimeStamps => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\externalLibsTimeStamps
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\index.db => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\index.db
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\javaLikeNames.txt => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\javaLikeNames.txt
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\nonChainingJarsCache => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\nonChainingJarsCache
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\savedIndexNames.txt => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\savedIndexNames.txt
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.debug.ui\stackTraceConsole.txt => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.debug.ui\stackTraceConsole.txt
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.launching\libraryInfos.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.launching\libraryInfos.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.ui\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.ui\OpenTypeHistory.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.ui\OpenTypeHistory.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log => app\src\main\resources\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback.configuration\logback.1.8.0.20170516-2043.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.m2e.logback.configuration\logback.1.8.0.20170516-2043.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.oomph.setup\workspace.setup => app\src\main\resources\.metadata\.plugins\org.eclipse.oomph.setup\workspace.setup
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.search\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.search\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.ui.editors\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.editors\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.ui.ide\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.ide\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.ui.intro\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.intro\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.ui.intro\introstate => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.intro\introstate
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.ui.workbench.texteditor\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.workbench.texteditor\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.ui.workbench\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.workbench\dialog_settings.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.ui.workbench\workingsets.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.workbench\workingsets.xml
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.sse.core\task-tags.properties => app\src\main\resources\.metadata\.plugins\org.eclipse.wst.sse.core\task-tags.properties
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.metadata\version.ini => app\src\main\resources\.metadata\version.ini
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\caches\identified-project-coordinates.json => app\src\main\resources\.recommenders\caches\identified-project-coordinates.json
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\caches\manual-mappings.json => app\src\main\resources\.recommenders\caches\manual-mappings.json
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.fdt => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.fdt
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.fdx => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.fdx
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.fnm => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.fnm
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.frq => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.frq
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.nrm => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.nrm
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.prx => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.prx
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.tii => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.tii
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.tis => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\_3.tis
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\segments.gen => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\segments.gen
+* C:\Users\Mohammed Abdullah\eclipse-workspace\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\segments_4 => app\src\main\resources\.recommenders\index\http___download_eclipse_org_recommenders_models_oxygen_\segments_4
+* C:\Users\Mohammed Abdullah\eclipse-workspace\hello\.classpath => app\src\main\resources\hello\.classpath
+* C:\Users\Mohammed Abdullah\eclipse-workspace\hello\.project => app\src\main\resources\hello\.project
+* C:\Users\Mohammed Abdullah\eclipse-workspace\hello\.settings\org.eclipse.jdt.core.prefs => app\src\main\resources\hello\.settings\org.eclipse.jdt.core.prefs
+* C:\Users\Mohammed Abdullah\eclipse-workspace\RationalClass\.classpath => app\src\main\resources\RationalClass\.classpath
+* C:\Users\Mohammed Abdullah\eclipse-workspace\RationalClass\.project => app\src\main\resources\RationalClass\.project
+* C:\Users\Mohammed Abdullah\eclipse-workspace\RationalClass\.settings\org.eclipse.jdt.core.prefs => app\src\main\resources\RationalClass\.settings\org.eclipse.jdt.core.prefs
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

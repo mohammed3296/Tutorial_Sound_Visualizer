@@ -1,0 +1,41 @@
+package hello;
+
+public class mohammed {
+	public static void main(String[] args) {
+		Outer.Inner cls = outerclass.new Inner();
+	}
+}
+
+interface FF {
+}
+
+interface asd extends FF {
+}
+
+abstract class B {
+}
+
+abstract class A implements asd {
+}
+
+abstract class C extends B {
+}
+
+class Outer {
+	int age;
+	String name;
+
+	void printer() {
+		System.out.print("hello inner classes");
+	}
+
+	class Inner {
+		void methodInner() {
+			System.out.println(age);
+			printer();
+		}
+	}
+
+	static class Inner2 {
+	}
+}
